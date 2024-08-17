@@ -8,6 +8,7 @@ pipeline {
             steps {
                 echo 'node version is'
                 bat 'npm install' 
+                bat 'npm run build'
             }
         }
     }
